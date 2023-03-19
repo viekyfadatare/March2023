@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="Suite">
+	
+
+<listeners>
+<listener class-name ="com.qa.ExtentReportListener.ExtentReporterNG"/>
+</listeners>
+
+	
+  <test thread-count="5" name="chrometest">
+	  <parameter name="browser" value="chrome"></parameter>
+	  <classes>
+      <class name="practice.bluestone"/>
+            <class name="practice.BlueStoneOffer"/>
+            <class name="practice.BlueStonMouseOver"></class>
+
+    </classes>
+  </test> <!-- Test -->
+   
+   <test thread-count="5" name="firefoxtest">
+	  <parameter name="browser" value="firefox"></parameter>
+	  <classes>
+      <class name="practice.bluestone"/>
+            <class name="practice.BlueStoneOffer"/>
+            <class name="practice.BlueStonMouseOver"></class>
+
+    </classes>
+  </test>
+  
+</suite> <!-- Suite -->

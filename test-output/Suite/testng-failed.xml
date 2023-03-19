@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="firefoxtest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="practice.BlueStonMouseOver">
+        <methods>
+          <include name="mouse" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- practice.BlueStonMouseOver -->
+      <class name="practice.bluestone">
+        <methods>
+          <include name="lauching_browser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- practice.bluestone -->
+      <class name="practice.BlueStoneOffer">
+        <methods>
+          <include name="offer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- practice.BlueStoneOffer -->
+    </classes>
+  </test> <!-- firefoxtest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
