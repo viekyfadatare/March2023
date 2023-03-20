@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.CrossBoswer">
+      <class name="TestNG.ExpectedExecption">
         <methods>
-          <include name="tc2"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- practice.CrossBoswer -->
+      </class> <!-- TestNG.ExpectedExecption -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
